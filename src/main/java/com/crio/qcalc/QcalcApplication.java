@@ -9,7 +9,12 @@ public class QcalcApplication {
 	public static void main(String[] args) {
 		//SpringApplication.run(QcalcApplication.class, args);
 		System.out.println("Hello world!");
-		StandardCalculator calc = new StandardCalculator();
+		// StandardCalculator calc = new StandardCalculator();
+
+		// calc.add(Double.MAX_VALUE, 1.0);
+
+		// calc.printResult();
+		ScientificCalculator calc = new ScientificCalculator();
 
 		calc.add(Double.MAX_VALUE, 1.0);
 
