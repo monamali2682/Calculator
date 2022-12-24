@@ -14,10 +14,14 @@ public class QcalcApplication {
 		// calc.add(Double.MAX_VALUE, 1.0);
 
 		// calc.printResult();
-		ScientificCalculator calc = new ScientificCalculator();
+		// ScientificCalculator calc = new ScientificCalculator();
 
-		calc.add(Double.MAX_VALUE, 1.0);
+		// calc.add(Double.MAX_VALUE, 1.0);
 
+		// calc.printResult();
+
+		LogicCalculator calc = new LogicCalculator();
+		calc.OR(8,6);
 		calc.printResult();
 	}
 
