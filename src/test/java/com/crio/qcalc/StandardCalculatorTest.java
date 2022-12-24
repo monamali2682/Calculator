@@ -14,37 +14,37 @@ public class StandardCalculatorTest {
     }
 
     
-    // @Test
-    // @DisplayName("Test Addition of Two Integers")
-    // void testAdditionOperationForIntegers(){
-    //     standardCalculator.add(1,1);
-    //     double actualResult = standardCalculator.getResult();
-    //     Assertions.assertEquals(2, actualResult);
-    // }   
+    @Test
+    @DisplayName("Test Addition of Two Integers")
+    void testAdditionOperationForIntegers(){
+        standardCalculator.add(1,1);
+        double actualResult = standardCalculator.getResult();
+        Assertions.assertEquals(2, actualResult);
+    }   
 
-    // @Test
-    // @DisplayName("Test Substraction of Two Integers")
-    // void testSubtractionOperation(){
-    //     standardCalculator.subtract(1,1);
-    //     double actualResult = standardCalculator.getResult();
-    //     Assertions.assertEquals(0, actualResult);
-    // }
+    @Test
+    @DisplayName("Test Substraction of Two Integers")
+    void testSubtractionOperation(){
+        standardCalculator.subtract(1,1);
+        double actualResult = standardCalculator.getResult();
+        Assertions.assertEquals(0, actualResult);
+    }
 
-    // @Test
-    // @DisplayName("Test Multiplication of Two Integers")
-    // void testMultiplicationOperation(){
-    //     standardCalculator.multiply(1,1);
-    //     double actualResult = standardCalculator.getResult();
-    //     Assertions.assertEquals(1, actualResult);
-    // }
+    @Test
+    @DisplayName("Test Multiplication of Two Integers")
+    void testMultiplicationOperation(){
+        standardCalculator.multiply(1,1);
+        double actualResult = standardCalculator.getResult();
+        Assertions.assertEquals(1, actualResult);
+    }
 
-    // @Test
-    // @DisplayName("Test Division of Two Integers")
-    // void testDivisionOperation(){
-    //     standardCalculator.divide(10,2);
-    //     double actualResult = standardCalculator.getResult();
-    //     Assertions.assertEquals(5, actualResult);
-    // }
+    @Test
+    @DisplayName("Test Division of Two Integers")
+    void testDivisionOperation(){
+        standardCalculator.divide(10,2);
+        double actualResult = standardCalculator.getResult();
+        Assertions.assertEquals(5, actualResult);
+    }
 
     @Test
     @DisplayName("Test Addition of Two Doubles")
